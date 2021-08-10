@@ -1,0 +1,20 @@
+body {
+background-color: darksalmon;
+
+}
+
+#Dominoes-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Dominoes-list li {
+    list-style-type: none;
+    font-size: 6rem;
+}
+
+#Dominoes-list .selected {
+    color: white;
+    filter: drop-shadow(0 0 .75rem crimson);
+}
